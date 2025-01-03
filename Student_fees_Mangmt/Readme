@@ -1,0 +1,4 @@
+planning to develop a digital platform to manage student fees and receipts. The platform should allow administrators to create, update, and delete student profiles, as well as generate receipts for fee payments. The system should ensure that only authorized personnel can access and modify student information.
+
+You are tasked with designing a class structure to implement this system. The Student class should have attributes for student ID, name, and fee balance. The Receipt class should have attributes for receipt ID, student ID, payment amount, and payment date. The system should also include a FeeManager class that can perform operations such as adding a new student, updating a student's fee balance, and generating a receipt for a payment.
+The system will be used by multiple administrators simultaneously, and therefore, thread-safety should be considered in the implementation.
